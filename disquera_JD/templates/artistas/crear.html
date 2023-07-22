@@ -1,0 +1,11 @@
+{% extends 'base.html' %}
+{% block title %} Registro | Artista{% endblock  %}
+
+{% block contenido %}
+
+<h1 class="text-center">Registrar Artistas</h1>
+<div class="shadow p-3 mb-5 bg-body-tertiary rounded" style="width">
+    {% include 'artistas/form.html' %}
+</div>
+
+{% endblock  %}
